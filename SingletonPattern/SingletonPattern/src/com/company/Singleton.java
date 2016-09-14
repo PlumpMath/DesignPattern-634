@@ -2,6 +2,7 @@ package com.company;
 
 /**
  * Created by nightwingky on 16-9-14.
+ * 饿汉模式
  */
 public class Singleton {
 
