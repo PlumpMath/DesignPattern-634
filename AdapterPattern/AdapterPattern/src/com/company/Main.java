@@ -18,5 +18,9 @@ public class Main {
         ThreePlugIntf threePlug = new TwoPlugAdapter(twoPlug);
         Main main = new Main(threePlug);
         main.charge();
+
+        threePlug = new TwoPlugAdapterExtends();
+        main = new Main(threePlug);
+        main.charge();
     }
 }
