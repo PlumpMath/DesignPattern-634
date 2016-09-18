@@ -1,7 +1,5 @@
 package com.company;
 
-import org.omg.PortableInterceptor.INACTIVE;
-
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Proxy;
 
